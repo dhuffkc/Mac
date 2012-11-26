@@ -4,6 +4,6 @@
 int main( int argc, char** argv )
 {
     osgViewer::Viewer viewer;
-    viewer.setSceneData( osgDB::readNodeFile("cessna.osg") );
+    viewer.setSceneData( osgDB::readNodeFile("sword.dae") );
     return viewer.run();
 }
